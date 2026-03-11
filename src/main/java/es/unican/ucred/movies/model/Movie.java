@@ -6,7 +6,7 @@ package es.unican.ucred.movies.model;
 public class Movie {
     private final int id;
     private final String title;
-   -- private final String overview;
+    private final String overview;
     private final String posterPath;
     private final String releaseDate;
     private final double voteAverage;
