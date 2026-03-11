@@ -22,7 +22,7 @@ jobs:
       - name: Compilar 
         run: mvn clean compile
                 
-   prueba:
+  prueba:
     needs : compilacion
     runs-on: ubuntu-latest
 
